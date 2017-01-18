@@ -1,0 +1,99 @@
+     header {
+     font-size: 35px;
+     text-align: center;
+ }
+ 
+ td {
+     border-style: ridge;
+ }
+ 
+ div.tableHeader {
+     border-style: ridge;
+     width: 50%;
+     text-align: center;
+ }
+ 
+ div.columnLeft {
+     border-style: ridge;
+     float: left;
+     width: 20%;
+     margin-left: 2%;
+ }
+ 
+ div.columnRight {
+     border-style: ridge;
+     float: right;
+     width: 20%;
+     text-align: right;
+     margin-right: 56%;
+ }
+ 
+ div.marginTop {
+     margin-top: 20px;
+ }
+ 
+ #grad1 {
+     height: 100px;
+     background: red;
+     background: linear-gradient(red, yellow);
+ }
+ 
+ body.backGroundImage {
+     background-image: url(/image/518164-backgrounds.jpg);
+ }
+ 
+ fieldset.fieldSetWidth {
+     width: 60%;
+ }
+ 
+ input.inputboxClass {
+     margin-left: 10%;
+     width: 65%;
+ }
+ 
+ input.roundCorners {
+     border-radius: 4px;
+ }
+ 
+ fieldset.roundCorners {
+     border-radius: 8px;
+ }
+ 
+ fieldset.radioButtons {}
+ 
+ textArea.textAreaClass {
+     margin-left: 5%;
+     height: 87px;
+ }
+ 
+ label {
+     min-width: 30%;
+     margin-right: 4%;
+     text-align: center;
+ }
+ 
+ .card-visa,
+ .card-master,
+ .card-other {
+     background-image: url('/image/credit-card-images-5.jpg');
+     background-repeat: no-repeat;
+ }
+ 
+ .card-visa {
+     height: 50px;
+     background-position: -8px -5px;
+     width: 76px;
+ }
+ 
+ .card-master {
+     height: 54px;
+     background-position: -88px -4px;
+     width: 77px;
+ }
+ 
+ .card-other {
+     height: 54px;
+     background-position: -162px -4px;
+     width: 77px;
+ }
+ 

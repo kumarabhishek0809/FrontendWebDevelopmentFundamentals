@@ -1,0 +1,78 @@
+.bubble {
+    box-sizing: content-box;
+    color: rgba(0, 0, 0, 1);
+    width: 120px;
+    height: 80px;
+    position: relative;
+    background: #1abc9c;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.bubble::before {
+    position: absolute;
+    content: "";
+    top: 27px;
+    right: 100%;
+    border: 15px solid rgba(0, 0, 0, 0);
+    border-right: 28px solid #1abc9c;
+    border-left: 0 solid;
+}
+
+.bubble::before {
+    position: absolute;
+    content: "";
+    top: 27px;
+    right: 100%;
+    border: 15px solid rgba(0, 0, 0, 0);
+    border-right: 28px solid #1abc9c;
+    border-left: 0 solid;
+}
+
+.boxModel {
+    width: 8%;
+    height: 50px;
+    background-color: blue;
+    padding: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.boxModel::after {
+    background-color: grey;
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+}
+
+.parent {
+    position: relative;
+    background-color: green;
+    width: 150px;
+    height: 200px;
+    transition: all 1s;
+}
+
+.parent:hover {
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+    margin: -9% 0 0 -15%;
+}
+
+.divClass {
+    background-color: green;
+    width: 150px;
+    height: 200px;
+}
